@@ -16,7 +16,7 @@ namespace UnitTestForLesson2
             int expectedResult = 90;
            
             //Act
-            int result = Program.add(x, y);
+            int result = Program.addYtoX(ref x,ref y);
             //Assert
             Assert.AreEqual(expectedResult, result);
         }
